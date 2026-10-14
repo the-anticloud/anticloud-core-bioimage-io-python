@@ -1,0 +1,25 @@
+# Founder Profile — CORE_BIOIMAGE_IO_PYTHON
+
+**Company:** Anticloud FZ LLE
+**Model:** PAX L5 Narrow L2 General 27B
+**Project:** CORE_BIOIMAGE_IO_PYTHON | Category: SCIENTIFIC_LAB
+**Upstream:** https://github.com/bioimage-io/core-bioimage-io-python (MIT)
+
+## Overview
+
+This document covers founder profile for the Anticloud integration of CORE_BIOIMAGE_IO_PYTHON.
+
+BioImage.IO model spec for microscopy AI
+
+## Anticloud Integration
+
+PAX L5 Narrow L2 General 27B is integrated into CORE_BIOIMAGE_IO_PYTHON to provide:
+- Local AI inference with zero cloud dependency
+- AIOSS tamper-evident audit chain
+- AES-256 encryption at rest
+- Single-binary deployment
+
+## Contact
+
+Lois-Kleinner Alpasan — CEO & CTO, Anticloud FZ LLE
+lois@0-1.gg | 0-1.gg
