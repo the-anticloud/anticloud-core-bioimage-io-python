@@ -1,0 +1,123 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:c70d611a-3569-52d7-8365-174c876be77d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T17:20:51Z",
+    "component": {
+      "type": "application",
+      "name": "CORE_BIOIMAGE_IO_PYTHON",
+      "version": "31703b23e9d6",
+      "bom-ref": "pkg:generic/anticloud/CORE_BIOIMAGE_IO_PYTHON@31703b23e9d6",
+      "purl": "pkg:generic/anticloud/CORE_BIOIMAGE_IO_PYTHON@31703b23e9d6",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "31703b23e9d666a94bedab248411d95348a18ab3"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/bioimage-io/core-bioimage-io-python"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "bioimageio.spec",
+      "version": "==0.5.12.0",
+      "purl": "pkg:pypi/bioimageio.spec@0.5.12.0",
+      "bom-ref": "pypi/bioimageio.spec@==0.5.12.0"
+    },
+    {
+      "type": "library",
+      "name": "imagecodecs",
+      "version": "unspecified",
+      "purl": "pkg:pypi/imagecodecs",
+      "bom-ref": "pypi/imagecodecs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "imageio",
+      "version": ">=2.10",
+      "purl": "pkg:pypi/imageio@2.10",
+      "bom-ref": "pypi/imageio@>=2.10"
+    },
+    {
+      "type": "library",
+      "name": "loguru",
+      "version": "unspecified",
+      "purl": "pkg:pypi/loguru",
+      "bom-ref": "pypi/loguru@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numpy",
+      "bom-ref": "pypi/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pydantic-settings",
+      "version": ">=2.5",
+      "purl": "pkg:pypi/pydantic-settings@2.5",
+      "bom-ref": "pypi/pydantic-settings@>=2.5"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": ">=2.7.0",
+      "purl": "pkg:pypi/pydantic@2.7.0",
+      "bom-ref": "pypi/pydantic@>=2.7.0"
+    },
+    {
+      "type": "library",
+      "name": "ruyaml",
+      "version": "unspecified",
+      "purl": "pkg:pypi/ruyaml",
+      "bom-ref": "pypi/ruyaml@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/scipy",
+      "bom-ref": "pypi/scipy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tqdm",
+      "version": "unspecified",
+      "purl": "pkg:pypi/tqdm",
+      "bom-ref": "pypi/tqdm@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "typing-extensions",
+      "version": "unspecified",
+      "purl": "pkg:pypi/typing-extensions",
+      "bom-ref": "pypi/typing-extensions@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "xarray",
+      "version": ">=2023.01",
+      "purl": "pkg:pypi/xarray@2023.01",
+      "bom-ref": "pypi/xarray@>=2023.01"
+    }
+  ]
+}
